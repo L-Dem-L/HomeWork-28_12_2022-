@@ -1,0 +1,99 @@
+body main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.5s;
+}
+
+.card-img {
+    position: absolute;
+    display: flex;
+    object-fit: contain;
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-winter-christmas-background-shiny-snow-blizzard-space-text-vertical-stories-soft-focus-162196258.jpg);
+    border-right: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.card-info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 70%;
+    left: 30%;
+    height: 100%;
+}
+
+.card-info h1 {
+    position: absolute;
+    height: 15%;
+    left: 3% ;
+}
+
+.card-info h2 {
+    position: absolute;
+    height: 15%;
+    left: 3% ;
+    bottom: 1%;
+}
+
+.card-info p {
+    position: absolute;
+    height: 15%;
+    left: 3% ;
+    top: 25%;
+}
+
+.actions {
+    position: absolute;
+    z-index: 1;
+    right: 2%;
+    top: 5%;
+}
+
+.actions button {
+    min-width: 50px;
+    height: 55px;
+    border-color: #545BE8;
+}
+
+#menu-btn {
+    background-color: #545BE8;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .card {
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .card {
+        width: 12.5%;
+    }
+}
