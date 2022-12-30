@@ -25,8 +25,8 @@ body main {
     object-fit: contain;
     background-image: url(https://thumbs.dreamstime.com/b/abstract-winter-christmas-background-shiny-snow-blizzard-space-text-vertical-stories-soft-focus-162196258.jpg);
     border-right: 1px solid black;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
     width: 30%;
     height: 100%;
 }
