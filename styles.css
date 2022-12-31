@@ -34,7 +34,6 @@ body main {
 .card-info {
     position: relative;
     display: flex;
-    justify-content: space-between;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 70%;
